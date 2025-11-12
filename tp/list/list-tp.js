@@ -41,7 +41,7 @@ function reRenderList() {
     var liElement = document.createElement("li");
     var liContent = (document.createTextNode = listeCourse[i]);
     liElement.textContent = liContent;
-
+    liElement.addEventListener("click", () => deleteElement(i));
     if (i % 2 == 0) {
       liElement.style.color = "blue";
     }
@@ -53,3 +53,9 @@ function reRenderList() {
 }
 
 reRenderList();
+
+function deleteElement(i) {
+  listeCourse.splice(i, 1);
+  console.log(listeCourse);
+  reRenderList();
+}
