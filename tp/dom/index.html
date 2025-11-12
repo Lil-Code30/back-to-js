@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom Manipulation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="demo"></div>
+    <br /><br /><br />
+    <button id="btn1" class="btn btn-primary mb-3">Clique-moi</button>
+
+    <fieldset class="border p-2 m-6">
+      <legend>Enter your name</legend>
+      <input type="text" name="name" id="name" />
+      <br />
+      <span>Output : </span>
+      <p id="output" class="m-2 p-3"></p>
+    </fieldset>
+
+    <button class="my-3 btn btn-success" id="changeColor">
+      Changer Couleur
+    </button>
+    <div
+      id="box"
+      class="border"
+      style="width: 100px; height: 100px; background: gray"
+    ></div>
+    <br />
+    <hr />
+    <br /><br />
+
+    <div class="d-flex">
+      <button id="minusBtn" class="btn btn-danger roundedfull">-</button>
+
+      <p class="btn btn-secondary roundedfull" id="counter">0</p>
+      <button id="plusBtn" class="btn btn-success roundedfull">+</button>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
