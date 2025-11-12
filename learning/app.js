@@ -13,6 +13,8 @@ console.log(`My name is ${name}`);
 
 let age = prompt("How old are you?");
 
+//  conditions
+
 switch (age) {
   case 10:
     alert("You are young");
@@ -29,3 +31,15 @@ switch (age) {
   default:
     alert("Your age is not in the range");
 }
+
+// boubles
+
+const cars = ["BMW", "Honda", "Toyota"];
+
+let str = "";
+
+for (let x of cars) {
+  str += x;
+}
+
+console.log(str);
