@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      Créer une fonction qui prend en entrée une chaîne de caractères et renvoie
+      le nombre de voyelles (pas besoin de prendre en compte les caractères avec
+      accents) dans cette chaîne. Ensuite, dans une deuxième fonction faisant
+      appel à la première, affichez le nombre de voyelles dans une phrase
+      donnée.
+    </p>
+    <br /><br />
+    <div>
+      <label for="inputPhrase">Entrez une phrase :</label>
+      <input type="text" id="inputPhrase" /><br /><br />
+      <button id="btnDisplayVowels">Afficher les voyelles</button>
+      <button id="btnCountVowels">Compter les voyelles</button>
+    </div>
+    <br />
+    <div>
+      <strong>Résultat :</strong>
+      <p>Nombre de voyelles : (<span id="resultCountVowels">0</span>)</p>
+      <p>Voyelles trouvées :</p>
+      <ol id="listVowels"></ol>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
